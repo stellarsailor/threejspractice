@@ -15,15 +15,15 @@ const sizes = {
 };
 
 // Cursor
-const cursor = {
-  x: 0,
-  y: 0,
-};
+// const cursor = {
+//   x: 0,
+//   y: 0,
+// };
 
-window.addEventListener('mousemove', (event) => {
-  cursor.x = event.clientX / sizes.width - 0.5;
-  cursor.y = -(event.clientY / sizes.height - 0.5);
-});
+// window.addEventListener('mousemove', (event) => {
+//   cursor.x = event.clientX / sizes.width - 0.5;
+//   cursor.y = -(event.clientY / sizes.height - 0.5);
+// });
 
 // Scene
 const scene = new THREE.Scene();
